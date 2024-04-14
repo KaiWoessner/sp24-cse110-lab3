@@ -1,1 +1,2 @@
-# Lab 2 - Starter
+# Lab 2
+Pages: https://kaiwoessner.github.io/Lab2/

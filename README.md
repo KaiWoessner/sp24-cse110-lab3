@@ -1,2 +1,2 @@
-# Lab 2
-Pages: https://kaiwoessner.github.io/Lab2/
+# Lab 2 - Meeting Minutes
+Pages: https://kaiwoessner.github.io/MeetingMinutes/

@@ -1,3 +1,8 @@
+/* Root */
+:root{
+    --custom-color: #0066cc;
+}
+
 /* Full header */
 header{
     display: block;
@@ -25,7 +30,7 @@ header em{
 
 
     border-style: solid;
-    border-color: blue;
+    border-color: var(--custom-color,blue);
     border-width: .3em;
     border-radius: 10rem;
 }

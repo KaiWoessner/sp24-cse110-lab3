@@ -1,9 +1,17 @@
 header{
-
+    text-align: center;
 }
-/* body {
-    color: #3d8bff;
-} */
+header em{
+
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 20px 40px;
+
+
+    border-style: solid;
+    border-color: rgb(6, 97, 2);
+    border-width: .3em;
+    border-radius: 10rem;
+}
 #nav_links {
     width: 150px;
     height: 150px;
@@ -14,11 +22,11 @@ header{
     border-radius: 10px;
 
     padding: 10px 10px 10px 10px; /*  <top> <right> <bottom> <left> */
-    margin: 5px 20px 20px 200px; /*  <top> <right> <bottom> <left> */
+    margin: 5px 20px 20px 40vw; /*  <top> <right> <bottom> <left> */
 }
 .div_attendence {
-    width: 150px;
-    height: 150px;
+    width: 4cm;
+    height: 4cm;
 
     border-style: solid;
     border-color: blue;
@@ -34,7 +42,7 @@ header{
 
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 1in;
     padding-right: 100px;
 
     border-style: solid;
@@ -48,11 +56,31 @@ header{
     margin-right: 20px;
 }
 .div_questions{
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 3px solid maroon;
+    border-radius: 5px; 
 }
 .div_presentations{
-    
+    width: 450px;
+    height: 1700px;
+
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 10px;
+
+    padding: 10px 10px 10px 10px; /*  <top> <right> <bottom> <left> */
+    margin: auto;
 }
+.div_presentations img {
+    width: 400px;
+    height: auto;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
 .div_recordings{
     text-align: center;
     width: 400px;
@@ -69,10 +97,3 @@ header{
     height: auto;
 
 }
-
-/* #questions {
-   color: red;
-} */
-/* footer {
-    color: hsl(216, 100%, 16%);
-} */

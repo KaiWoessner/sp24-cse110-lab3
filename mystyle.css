@@ -1,0 +1,78 @@
+header{
+
+}
+/* body {
+    color: #3d8bff;
+} */
+#nav_links {
+    width: 150px;
+    height: 150px;
+
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 10px;
+
+    padding: 10px 10px 10px 10px; /*  <top> <right> <bottom> <left> */
+    margin: 5px 20px 20px 200px; /*  <top> <right> <bottom> <left> */
+}
+.div_attendence {
+    width: 150px;
+    height: 150px;
+
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 10px;
+
+    padding: 10px 100px 50px 100px; /*  <top> <right> <bottom> <left> */
+    margin: 5px 20px 20px 125px; /*  <top> <right> <bottom> <left> */
+}
+.div_agenda{
+    width: 350px;
+    height: 400px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.div_questions{
+
+}
+.div_presentations{
+    
+}
+.div_recordings{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+
+    border: 3px solid rgb(6, 66, 94);
+
+    margin: auto;
+
+}
+.div_recordings video{
+    display: grid;
+    width: 400px;
+    height: auto;
+
+}
+
+/* #questions {
+   color: red;
+} */
+/* footer {
+    color: hsl(216, 100%, 16%);
+} */

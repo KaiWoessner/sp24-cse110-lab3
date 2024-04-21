@@ -21,7 +21,7 @@ header em{
 #nav_links {
     background-color: color(srgb 20% 69% 72% / 0.5);
 
-    width: 150px;
+    max-width: 150px;
     height: 150px;
 
     border-style: solid;
@@ -30,7 +30,7 @@ header em{
     border-radius: 10px;
 
     padding: 10px 10px 10px 10px; /*  <top> <right> <bottom> <left> */
-    margin: 5px 20px 20px 40vw; /*  <top> <right> <bottom> <left> */
+    margin: 5px 40vw 20px 40vw; /*  <top> <right> <bottom> <left> */
 }
 .div_attendence {
     width: 4cm;
@@ -47,7 +47,8 @@ header em{
 .div_agenda{
     background-color: color-mix(in srgb, aqua 70%, black); 
 
-    width: 350px;
+    min-width: 550px;
+    width: 30%;
     height: 400px;
 
     padding-top: 50px;

@@ -50,16 +50,14 @@ header em{
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-    max-width: 150px;
-    height: 190px;
+    width: 80%;
+    height: auto;
 
     border-style: solid;
     border-color: #005D9F;
     border-width: 3px;
     border-radius: 10px;
 
-    padding: 10px 10px 10px 10px; /*  <top> <right> <bottom> <left> */
-    margin: 5px 40vw 20px 40vw; /*  <top> <right> <bottom> <left> */
 }
 
 /* Links of navigation (attribute selector) */
@@ -112,17 +110,17 @@ h1:has(~ h3) {
 
 /* Nested selectors of attendence section*/
 .attendence {
-    font-size: 17px;
-    width: 4cm;
-    height: 4cm;
+    font-size: 0.45cm;
+    width: 80%;
+    height: auto;
 
     border-style: solid;
     border-color: hsl(205, 69%, 65%);
     border-width: 3px;
     border-radius: 10px;
 
-    padding: 10px 100px 50px 100px; /*  <top> <right> <bottom> <left> */
-    margin: 5px 20px 20px 125px; /*  <top> <right> <bottom> <left> */
+    padding: 10px 100px 50px 1in; /*  <top> <right> <bottom> <left> */
+    margin: 5px 20px 20px 5px; /*  <top> <right> <bottom> <left> */
 
     /* Hover response */
     &:hover{
@@ -134,9 +132,10 @@ h1:has(~ h3) {
 .agenda{
     background-color: color-mix(in srgb, aqua 70%, black); 
 
-    min-width: 550px;
-    width: 30%;
-    height: 340px;
+    min-width: auto;
+    max-width: 1000px;
+    width: 80%;
+    height: auto;
 
     padding-top: 5px;
     padding-bottom: 50px;
@@ -150,7 +149,7 @@ h1:has(~ h3) {
 
     margin-top: 5px;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-right: 20px;
 }
 
@@ -250,9 +249,9 @@ h1:has(~ h3) {
 
 /* Video recording */
 .recordings video{
-    display: grid;
     width: 400px;
     height: auto;
+    margin: auto;
 
 }
 
@@ -272,4 +271,22 @@ footer hr{
 /* Form section */
 .form{
     display: none;
+}
+
+/* Media Query */
+@media screen and (min-width: 1300px) {
+    *{
+        font-size: 32px;
+    }
+    .recordings{
+        width: 80%;
+        height: auto;
+    
+    }
+    .recordings video{
+        width: 80%;
+    }
+    .recordings audio{
+        width: 60%;
+    }
 }

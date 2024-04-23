@@ -58,6 +58,8 @@ header em{
 
 /* Attendence section */
 .div_attendence {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 17px;
     width: 4cm;
     height: 4cm;
 
@@ -157,6 +159,7 @@ header em{
 
 /* Presentation section */
 .div_presentations{
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;

@@ -39,8 +39,13 @@ header em{
 #nav_links {
     background-color: color(srgb 20% 69% 72% / 0.5);
 
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
     max-width: 150px;
-    height: 150px;
+    height: 170px;
 
     border-style: solid;
     border-color: #005D9F;
@@ -112,8 +117,8 @@ header em{
     border-radius: 5px; 
 }
 
-/* Full Presentation section */
-.div_presentations{
+/* Full Diagram section */
+.div_diagrams{
     display: inline-block;
     width: 450px;
     height: 1700px;
@@ -127,12 +132,38 @@ header em{
     margin: auto;
 }
 
-/* Presentation Images*/
-.div_presentations img {
+/* Diagram Images*/
+.div_diagrams img {
     width: 400px;
     height: auto;
     margin: 0px 15px;
     border-radius: 5px;
+}
+
+/* 1st Paragraph Presentation Section */
+.div_presentations p:nth-child(1) {
+    grid-area: route-running;
+}
+
+/* 2nd Paragraph Presentation Section */
+.div_presentations p:nth-child(2) {
+    grid-area: catching-ability;
+}
+
+/* 3rd Paragraph Presentation Section */
+.div_presentations p:nth-child(3) {
+    grid-area: yac-ability;
+}
+
+/* Presentation section */
+.div_presentations{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "route-running catching-ability yac-ability";
+ 
+    column-gap: 20px;
+
 }
 
 /* Full recording section */

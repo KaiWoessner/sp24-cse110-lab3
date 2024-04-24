@@ -289,4 +289,8 @@ footer hr{
     .recordings audio{
         width: 60%;
     }
+
+    footer hr{
+        bottom: 60px;
+    }
 }
